@@ -1,0 +1,72 @@
+{
+  "types": {
+    "feat": {
+      "description": "A new feature",
+      "title": "Features"
+    },
+    "fix": {
+      "description": "A bug fix",
+      "title": "Bug Fixes"
+    },
+    "docs": {
+      "description": "Documentation only changes",
+      "title": "Documentation"
+    },
+    "style": {
+      "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)",
+      "title": "Styles"
+    },
+    "refactor": {
+      "description": "A code change that neither fixes a bug nor adds a feature",
+      "title": "Code Refactoring"
+    },
+    "release": {
+      "description": "Creates a release from the current version of master",
+      "title": "Releases"
+    },
+    "perf": {
+      "description": "A code change that improves performance",
+      "title": "Performance Improvements"
+    },
+    "test": {
+      "description": "Adding missing tests or correcting existing tests",
+      "title": "Tests"
+    },
+    "build": {
+      "description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
+      "title": "Builds"
+    },
+    "ci": {
+      "description": "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)",
+      "title": "Continuous Integrations"
+    },
+    "chore": {
+      "description": "Other changes that don't modify src or test files",
+      "title": "Chores"
+    },
+    "revert": {
+      "description": "Reverts a previous commit",
+      "title": "Reverts"
+    }, 
+    "hotfix": {
+      "description": "Hotfixes a previous release",
+      "title": "Hotfix"
+    },
+    "featureflag": {
+      "description": "Creates a featureflag PR",
+      "title": "Featureflag"
+    },
+    "liquibase": {
+      "description": "Creates a liquibase PR",
+      "title": "Liquibase"
+    },
+    "istio": {
+      "description": "Creates an istio PR",
+      "title": "Istio"
+    }, 
+    "service-mesh": {
+      "description": "Creates a service mesh PR",
+      "title": "ServiceMesh"
+    }
+  }
+}
